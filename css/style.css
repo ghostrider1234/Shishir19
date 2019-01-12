@@ -62,7 +62,7 @@ li, a{
     display: block;
     color: rgba(243, 234, 234, 0.829);
     text-align: center;
-    border-radius:20%;
+    border-radius:10%;
     padding: 5px 16px 16px;
     text-decoration: none;
     font-size: 1.2em;
@@ -71,7 +71,7 @@ li, a{
 
 
 li:hover,a:hover {
-    background-color: rgba(50, 0, 0, 0.205);
+    background-color: rgba(126, 0, 0, 0.199);
   }
   
 .li-logo{
