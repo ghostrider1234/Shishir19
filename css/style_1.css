@@ -1,13 +1,28 @@
-#about_content{
-    width: 50%;
-    padding-top: 15px;
-    margin-left: 25%;
-    margin-right: 25%;
-    
-}
 #about-container{
     background-image: linear-gradient(to bottom right, rgb(5, 1, 17), rgb(43, 2, 2), rgb(8, 4, 14));
 }
-h1{
-    color: rgb(156, 146, 146);
+
+#event-container{
+    background-image: linear-gradient(to bottom,  rgb(8, 1, 36), rgb(21, 2, 39), rgb(11, 2, 26));
+}
+
+#celeb-container{
+    background-image: linear-gradient(to bottom left, rgb(5, 1, 17), rgb(29, 0, 48), rgb(27, 1, 39));
+}
+
+.heading{
+    margin:40px;
+    text-align: center;
+    color: #9c9292;
+}
+
+.content{
+    display:block;
+    margin:auto;
+    padding:20px 30px 30px;
+    width:60%;
+    font-size:1.4em;
+    font-family: Tahoma, Verdana, sans-serif;
+    border:dashed 2px;
+    border-color: rgba(90, 0, 20, 0.89);    
 }
