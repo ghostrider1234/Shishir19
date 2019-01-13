@@ -62,7 +62,7 @@ li, a{
     font-family: Verdana, Tahoma, sans-serif
 }
 
-li:hover,a:hover {
+li:hover {
     background-color: rgba(126, 0, 0, 0.199);
   }
   
