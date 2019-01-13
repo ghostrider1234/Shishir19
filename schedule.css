@@ -1,0 +1,29 @@
+table{
+border-collapse: collapse;
+width: 85%;
+table-layout: fixed;}
+
+ td{
+    vertical-align: top;
+    text-align: left;
+    height: 15px;
+    padding: 15px;
+}
+#a{
+ text-align: right;
+ vertical-align: top;
+}
+#c{
+    color: white;
+}
+th.solid{
+    background-color: rgb(80, 78, 78);
+    text-align: center;
+    color: white;
+    height: 10px;
+    border: 1px solid black;
+     padding: 0px;
+}
+#b{
+    border: 1px solid black;
+}
