@@ -8,18 +8,16 @@ ul{
 
 li{
     float : right;
-    width:100px;
 }
 
 li, a{
     display: block;
     color: rgba(243, 234, 234, 0.829);
     text-align: center;
-    border-radius:10%;
-    padding: 5px 16px 16px;
+    padding: 14px 16px;
     text-decoration: none;
     font-size: 1.2em;
-    font-family: Verdana, Tahoma, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 li:hover {
@@ -29,11 +27,15 @@ li:hover {
 .li-logo{
     padding:0;
     float : left;
-    height: 70px;
+    height:75px;
     width : 180px;
 }
 
 .logo{
-    height: 60px;
+    height: 75px;
     width : 150px;
+}
+
+.li-logo a{
+    padding:0;
 }
