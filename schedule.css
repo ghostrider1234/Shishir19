@@ -1,43 +1,47 @@
+body{
+    margin:0;
+    background-image: linear-gradient(to bottom, rgb(88, 94, 158),rgb(56, 77, 155), rgb(23, 34, 85));
+}
+
+h1{
+    font-size:2.6em;
+    text-align:center;
+    color:rgb(168, 167, 167);
+    text-shadow: black 3px 3px;
+}
+
 table{
     border-collapse: collapse;
     width: 100%;table-layout: fixed;
-height: 450px;
+    height: 450px;
 }
-div{
-    width: 80%;
-    background-image: radial-gradient( grey,rgb(56, 170, 104), grey);
-    height:600px;
-    padding-left:5%;
-    padding-right:5%;
-    margin-left:5%;
-    margin-right: 5%;
-    margin-top: 0%;
-    padding-top:30px;
-    margin-bottom:10px;
+
+#pre-shishir{
+    display:block;
+    margin:auto;
+    width: 90%;
+    background-image: linear-gradient(to bottom, rgb(46, 50, 100),rgb(32, 55, 136), rgb(33, 45, 99));
+    height:640px;
+    overflow:none;
+    padding:10px;
     
 }
-caption{
-    text-decoration:underline;
-    font-size: 30px;
-    padding-bottom: 20px;
-    font-style:inherit;
-}
+
 td{
     font-style: inherit;
     font-size: 20px;
     color:rgb(68, 63, 63);
-    background-color:gainsboro;
-    text-align: left;
+    background-color:rgb(226, 226, 226);
+    text-align: center;
     padding:1px;
     border:2px solid black;
 }
+
 th{
-    font-size:20px;
+    font-size:1.4em;
     color:black;
     font-style:inherit;
     text-align: center;
-    padding:1px;
-    opacity:20;
     background-color: gray;
     border:2px solid black;
 
